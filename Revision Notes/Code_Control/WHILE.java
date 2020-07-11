@@ -7,7 +7,7 @@ public class WHILE{
       // do whiles are useful as you tell it 
       //   what you want to happen and check the condition
       //   at the end.
-      int counter = 6;
+      int counter = 0;
       do{
          counter++;
          System.out.println("Do Loop: "+ counter);
@@ -15,7 +15,7 @@ public class WHILE{
       while(counter < 5);
       
       //and a while loop
-      counter = 6;
+      counter = 0;
       while(counter < 5){
          counter++;
          System.out.println("While Loop: "+ counter);
