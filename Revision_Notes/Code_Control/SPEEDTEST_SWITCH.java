@@ -5,71 +5,75 @@ public class SPEEDTEST_SWITCH{
    public static void main(String[] args){
       long startTimer = System.nanoTime();
       int randCount = 0;
+      int randVal = 0;
       //    TEST CODE START
       for(int loops = 0; loops < MASTER.test_loop; loops++){
          // System.out.print(loops);
-         int randVal = GET.randInt(1,15);
+         // int randVal = GET.randInt(1,15);
+         randVal++;
          // System.out.print("\t" + randVal);
          switch (randVal){
             case 1:
                // System.out.println("A");
-               randCount = randCount + 1;
+               randCount++;
                break;
             case 2:
                // System.out.println("B");
-               randCount = randCount + 1;
+               randCount++;
                break;
             case 3:
                // System.out.println("C"); 
-               randCount = randCount + 1;
+               randCount++;
                break;
             case 4:
                // System.out.println("D");
-               randCount = randCount + 1;
+               randCount++;
                break;
             case 5:
                // System.out.println("E");
-               randCount = randCount + 1;
+               randCount++;
                break;
             case 6:
                // System.out.println("A");
-               randCount = randCount + 1;
+               randCount++;
                break;
             case 7:
                // System.out.println("B");
-               randCount = randCount + 1;
+               randCount++;
                break;
             case 8:
                // System.out.println("C"); 
-               randCount = randCount + 1;
+               randCount++;
                break;
             case 9:
                // System.out.println("D");
-               randCount = randCount + 1;
+               randCount++;
                break;
             case 10:
                // System.out.println("E");
-               randCount = randCount + 1;
+               randCount++;
                break;
             case 11:
                // System.out.println("A");
-               randCount = randCount + 1;
+               randCount++;
                break;
             case 12:
                // System.out.println("B");
-               randCount = randCount + 1;
+               randCount++;
                break;
             case 13:
                // System.out.println("C"); 
-               randCount = randCount + 1;
+               randCount++;
                break;
             case 14:
                // System.out.println("D");
-               randCount = randCount + 1;
+               randCount++;
                break;
             case 15:
                // System.out.println("E");
-               randCount = randCount + 1;
+               randCount++;
+               randCount++;
+               randVal = 0;
                break;
          }
       }
