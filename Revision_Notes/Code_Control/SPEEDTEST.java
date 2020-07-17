@@ -26,8 +26,13 @@ public class SPEEDTEST{
       //    TEST CODE END
       long endTimer = System.nanoTime();
      
+      // printing
+      long deltaTimer_ns = endTimer - startTimer;
+      System.out.println("\nTIME: " + deltaTimer_ns + "ns");
+      long deltaTimer_ms =deltaTimer_ns/1000000L;
+      System.out.println("\nTIME: " + deltaTimer_ms + "ms");
+      double deltaTimer_sec = (double)deltaTimer_ns/1000000000f;
+      System.out.println("\nTIME: " + deltaTimer_sec + "sec");
       
-      long deltaTimer = endTimer - startTimer;
-      System.out.println("\nTIME: " + deltaTimer + "ns");
    }
 }
