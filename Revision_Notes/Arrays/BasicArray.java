@@ -30,12 +30,22 @@ public class BasicArray{
       for(int e = 0;e<5;e++){
          System.out.print(words[e]+" ");
       }
+      System.out.println("");
       
+      // We can use the method x.length to find out how many 
+      // elements are in the array.
       int wordsLength = words.length;
+      // output: 5
       
       for ( int e = 0 ; e < words.length;e++){
          System.out.println(words[e]);
       } 
-      
+      // there is an easier way to print all elements in an array.
+      // It is called a FOR-EACH loop.
+      // SYNTAX
+      // for(type variable : arrayname){}
+      for(String e : words){
+         System.out.println(e);
+      }
    }
 }
