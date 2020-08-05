@@ -11,6 +11,15 @@ public class TaskTwo{
       int number = rand.nextInt((4-0+1));
       System.out.println("Random: " + number);
       // WRITE YOUR CODE UNDER THIS COMMENT
+      if(number>=3){
+         System.out.println("Three");
+      }
+      else if(number==2){
+         System.out.println("Two");
+      }
+      else{
+         System.out.println("One");
+      }
       // WRITE YOUR CODE ABOVE THIS COMMENT
    }
 }
