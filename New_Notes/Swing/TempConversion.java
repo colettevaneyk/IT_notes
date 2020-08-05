@@ -2,20 +2,20 @@ import javax.swing.*;
 public class TempConversion{
    public static void main(String[] args){
      System.out.println("Program Started");
-      double celcius = 0; // using double to use decimals.
+      double celsius = 0; // using double to use decimals.
       double fahr = 0;
       double kelvin = 0;
       // the <*.parse*> converts String to double.
-      celcius = Double.parseDouble(JOptionPane.showInputDialog("Temp:"));
-      System.out.println("C:" + celcius);
+      celsius = Double.parseDouble(JOptionPane.showInputDialog("Temp in C:"));
+      System.out.println("C:" + celsius);
       
-      kelvin = celcius + 273.15;
+      kelvin = celsius + 273.15;
+      fahr = (9*celsius)/5 + 32;
+      
       System.out.println("K:" + kelvin);
-      JOptionPane.showMessageDialog(null, "Temp in Kelvin: " + kelvin);
-      
-      fahr = (9*celcius)/5 + 32;
       System.out.println("F: " + fahr);
-      JOptionPane.showMessageDialog(null, "Temp in Freedom: " + fahr);
       
+      JOptionPane.showMessageDialog(null, "Temp in... \n K: " + kelvin + "\n F: " + fahr);s
+
    }
 }
