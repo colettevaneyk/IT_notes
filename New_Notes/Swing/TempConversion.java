@@ -15,7 +15,8 @@ public class TempConversion{
       System.out.println("K:" + kelvin);
       System.out.println("F: " + fahr);
       
-      JOptionPane.showMessageDialog(null, "Temp in... \n K: " + kelvin + "\n F: " + fahr);s
+      JOptionPane.showMessageDialog(null, "Temp in... \n K: " + kelvin + "\n F: " + fahr);
+	
 
    }
 }
