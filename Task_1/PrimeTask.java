@@ -10,6 +10,25 @@
 */
 public class PrimeTask{
    public static void main(String[] args){
-      System.out.println("Hello");
+      int checkNum = 12;
+      int divMod = 0; //used to get modulo
+      int divCount = 0; // increments when there is a divisor.
+      
+      System.out.println("Is " + checkNum + " prime?");
+      
+      // for loop to divide checkNum by all numbers lower than it.
+      for(int div = 1; div <= checkNum; div++){
+         divMod = checkNum % div; 
+         // System.out.println(checkNum + "%" + div + "=" + divMod);
+         if (divMod == 0){
+            divCount++;
+         }
+      }
+      if(divCount == 2){
+         System.out.println("Yes");
+      }
+      else{
+         System.out.println("No");
+      }
    }
   }
