@@ -1,6 +1,8 @@
 public class Check {
     public static void main(String[]args){
-        
+        boolean test = primes(16);
+        System.out.print(test);
+
     }
 
     public static boolean primes(int input_num) {
@@ -8,7 +10,7 @@ public class Check {
         int divNum = 0;
         int divCount = 0;
 
-        for (divNum = 0; divNum < checkNum; divNum++) {
+        for (divNum = 1; divNum <= checkNum; divNum++) {
             if (checkNum % divNum == 0) {
                 ++divCount;
             }
