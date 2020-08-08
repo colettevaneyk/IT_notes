@@ -1,5 +1,7 @@
+package Old_Notes.JAVA_CountDivThree;
+
 //NAME: CountDivThree.java 
-//PURPOSE: Count the number of values divisable by 3 under and including 60.
+//PURPOSE: Count the number of values divisible by 3 under and including 60.
 
 public class CountDivThree
 {
@@ -7,7 +9,7 @@ public class CountDivThree
    {
       //VARIABLES
       int numberInc = 0; // number to be incremented in loop.
-      int divCount = 0; // increase when number divisable by 3.
+      int divCount = 0; // increase when number divisible by 3.
       
       while (numberInc <= 60)
       {

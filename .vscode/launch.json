@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrimeTask",
+            "request": "launch",
+            "mainClass": "PrimeTask",
+            "projectName": "IT_notes_caee194a"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",

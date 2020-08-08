@@ -1,4 +1,6 @@
-public class WHILE{
+package Revision_Notes.Code_SpeedTest;
+
+public class WHILE {
    public static void main(String[] args){
       
       // THE DO WHILE LOOP

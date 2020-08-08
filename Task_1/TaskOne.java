@@ -1,3 +1,5 @@
+package Task_1;
+
 /* Use the following format to
 * print 100 dots (.)
 * use a for loop and if statements to
@@ -9,7 +11,6 @@
 public class TaskOne{
    public static void main(String[] args){
       System.out.println("START");
-      int counter = 0;
       // WRITE YOUR CODE UNDER THIS COMMENT
       for(int x = 1; x <= 100;x++){
          System.out.print(".");

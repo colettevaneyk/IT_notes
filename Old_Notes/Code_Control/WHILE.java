@@ -1,4 +1,6 @@
-public class WHILE{
+package Old_Notes.Code_Control;
+
+public class WHILE {
    public static void main(String[] args){
       
       // THE DO WHILE LOOP

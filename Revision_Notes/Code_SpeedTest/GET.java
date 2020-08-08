@@ -1,3 +1,5 @@
+package Revision_Notes.Code_SpeedTest;
+
 import java.util.Random;
 
 public class GET {

@@ -1,3 +1,5 @@
+package Task_1;
+
 // use the template to answer the question:
 // 1) If the number is greater than or equal to 3
 //    print "Three"

@@ -1,10 +1,12 @@
+package Old_Notes.JAVA_OddEven;
+
 public class OddEven 
 {
    public static void newLine() // function to be repeated
    {
       System.out.println();
    }
-   //will print an interger it passes valueToPrint to the print
+   //will print an integer it passes valueToPrint to the print
    public static void printInt(int valueToPrint) 
    {
       System.out.print(valueToPrint);

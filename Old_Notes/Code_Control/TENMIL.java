@@ -1,10 +1,11 @@
-public class TENMIL{
+package Old_Notes.Code_Control;
+
+public class TENMIL {
 
    public static void main(String[] args){
    
       int number = 0;
       int million = 1000000;
-      int counter = 0;
       int total_loops = 10;
       
       int[] mainTimer_array = new int[total_loops];

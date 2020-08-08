@@ -1,4 +1,6 @@
-public class ArrayTask_2{
+package Revision_Notes.Arrays;
+
+public class ArrayTask_2 {
    public static void main(String[] args){
       
       int[] threeArray = new int[500];

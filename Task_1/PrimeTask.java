@@ -1,3 +1,7 @@
+package Task_1;
+
+// package PrimeTask;
+
 /* CHECK IF A NUMBER IS PRIME
   * WHAT IS A PRIME?
   * A number with 2 divisors, itself and one.
@@ -8,8 +12,25 @@
   * divides into another.
   * AIM: Input number, then check, then print result.
 */
-public class PrimeTask{
-   public static void main(String[] args){
-      System.out.println("Hello");
+public class PrimeTask {
+   public static void main(String[] args) {
+   
+      int checkNum = 1543663;
+      int divisorMod = 0;
+      int divCount = 0;
+   
+      System.out.println("Is " + checkNum + " Prime?");
+   
+      for (int divNum = 1; divNum <= checkNum; divNum++) {
+         divisorMod = checkNum % divNum;
+         if (divisorMod == 0) {
+            divCount++;
+         }
+      }
+      if (divCount == 2) {
+         System.out.println("YES");
+      } else {
+         System.out.println("NO");
+      }
    }
-  }
+}

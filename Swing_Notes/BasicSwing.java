@@ -1,3 +1,5 @@
+package Swing_Notes;
+
 import javax.swing.*;
 public class BasicSwing{
       // What is swing? 
