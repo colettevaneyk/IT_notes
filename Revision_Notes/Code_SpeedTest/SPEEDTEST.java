@@ -1,4 +1,6 @@
-public class SPEEDTEST{
+package Revision_Notes.Code_SpeedTest;
+
+public class SPEEDTEST {
    public static void main(String[] args){
       long startTimer = System.nanoTime();
       

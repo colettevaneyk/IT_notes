@@ -1,4 +1,6 @@
-public class FillArray{
+package Revision_Notes.Arrays;
+
+public class FillArray {
    public static void main(String[] args){
       // when setting up a empty array we 
       // need to tell it how many elements

@@ -1,12 +1,8 @@
-public class TaskThree{
+package Task_1;
+
+public class TaskThree {
    public static void main(String[] args){
-      // We are now going to make a fibonacci sequence.
-      // The sequence is the sum of the two preceding ones, 
-      // starting from 0 and 1
-      double currNum = 1;
       double nextNum = 0;
-      double prevNum = 0;
-      
       int maxFind = 1500;
        
       double[] fibArray = new double[maxFind];

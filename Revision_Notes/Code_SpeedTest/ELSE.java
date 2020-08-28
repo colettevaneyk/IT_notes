@@ -1,4 +1,6 @@
-public class ELSE{
+package Revision_Notes.Code_SpeedTest;
+
+public class ELSE {
    public static void main(String[] args) {
       /*
       *   The if else is useful is you want to to do

@@ -1,4 +1,6 @@
-public class MillionCheck{
+package Old_Notes.Code_Control;
+
+public class MillionCheck {
    public static void main(String[] args){
       int number = 0;
       int million = 1000000;

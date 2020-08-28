@@ -1,3 +1,5 @@
+package Revision_Notes.Arrays;
+
 import java.util.Random;
 
 public class ArrayRandom{

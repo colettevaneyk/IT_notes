@@ -1,13 +1,12 @@
+package Old_Notes.JAVA_ClassTest2;
+
 public class ClassTest
 {
-   pul
    public static void main(String[] args)
    {
       int a = 1;
       int b = 0;
-      int c = 0;
-      
-      for(int x = 0; x<10;x++)
+      for (int x = 0; x < 10; x++)
       {
          a++;
          System.out.print(a +"\t");

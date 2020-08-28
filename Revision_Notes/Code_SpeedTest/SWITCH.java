@@ -1,4 +1,6 @@
-public class SWITCH{
+package Revision_Notes.Code_SpeedTest;
+
+public class SWITCH {
    public static void main(String[] args) {
       /*
       *    SWITCH CASES ARE BASICALLY ELSE IF CONTROL STRUCTURES.
@@ -26,7 +28,7 @@ public class SWITCH{
          case 3:
             System.out.println("C");
             break;
-            // the <default statment will be run
+            // the <default statement will be run
             // if 1,2,3 are not available.
          default:
             System.out.println("NULL");

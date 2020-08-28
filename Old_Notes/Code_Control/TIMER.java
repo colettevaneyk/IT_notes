@@ -1,4 +1,6 @@
-public class TIMER{
+package Old_Notes.Code_Control;
+
+public class TIMER {
 
    public static void main(String[] args){
       System.out.print("number \t jumpCountA \t deltaTimeA \t jumpCountB \t deltaTimB \n" ); 
