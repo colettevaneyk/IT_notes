@@ -51,6 +51,5 @@ public class AllConversions{
      // string to char
      String string5 = "h";
      char char5 = string5.charAt(0);
-      
    }
 }
